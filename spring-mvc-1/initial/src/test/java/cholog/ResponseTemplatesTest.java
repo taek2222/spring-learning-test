@@ -17,6 +17,7 @@ class ResponseTemplatesTest {
             .when().get("/hello?name=Brie")
             .then().log().all().extract();
 
+
         assertThat(response.statusCode()).isEqualTo(HttpStatus.OK.value());
         assertThat(response.asString()).contains("Hello, Brie!");
     }

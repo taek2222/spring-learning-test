@@ -1,8 +1,8 @@
 package cholog;
 
-import static org.assertj.core.api.Assertions.assertThat;
 
 import io.restassured.RestAssured;
+import static org.assertj.core.api.Assertions.assertThat;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
